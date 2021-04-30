@@ -1,0 +1,15 @@
+PSC
+PSC provides the user with an interface to control
+important power and clock operations.
+
+RAT
+Region-based Address Translation (RAT) module to perform a
+region based address translation of a 32-bit input address into a 36-bit output address. The RAT module
+provides the following main features:
+• 4 regions with dedicated registers for attributes configuration:
+– Region base address
+– Region size
+– Translated base address
+• Address translation for only enabled regions
+• Region boundary crossing transactions error generation
+
